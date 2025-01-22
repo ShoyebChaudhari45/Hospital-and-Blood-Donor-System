@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs"
+    android:background="@drawable/header_dashboard"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/r1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" Our application name is R-Town. This project acts as an important role in saving life of human beings and which is also its main aim. The project Android Hospital and Blood Doner Finding  system is developed so that users can view the information about registered blood donors such as name, address, and other such personal information along with their details of blood group and other medical information of donor. The project also has a login page where in the user is required to register and only then can view the availability of blood and may also register to donate blood if he/she wishes to. This project requires internet access and thus there is a disadvantage of internet failure.
+"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="20dp"/>
+
+
+</LinearLayout>

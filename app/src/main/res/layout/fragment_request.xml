@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/header_dashboard"
+    android:orientation="vertical"
+    tools:context=".RequestFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_register_cardtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="6dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="(Kindly fill the details correctly to help you better)"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_blood_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="6dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Select Blood Type"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blood"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:layout_marginLeft="110dp"
+                android:padding="3dp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Platelets"
+                android:textSize="15dp"
+                android:padding="3dp"
+                android:layout_marginLeft="1dp"
+                android:textColor="@color/white"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/input_bg"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:fontFamily="sans-serif-condensed"
+            android:hint=" Patient First Name:"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="textStart"
+            android:textColorHint="@color/white"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/input_bg"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:fontFamily="sans-serif-condensed"
+            android:hint=" Patient last Name:"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="textStart"
+            android:textColorHint="@color/white"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/request_mobile_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/input_bg"
+            android:drawableLeft="@drawable/ic_baseline_phone_android_24"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="Mobile Number:"
+            android:inputType="number"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="textStart"
+            android:textColorHint="#F4F2F8"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/request_date_of_birth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/input_bg"
+            android:drawableLeft="@drawable/ic_baseline_event_24"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="Date of Birth:"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="textStart"
+            android:textColorHint="@color/white"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+
+        <EditText
+            android:id="@+id/request_blood_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/input_bg"
+            android:drawableLeft="@drawable/ic_baseline_invert_colors_24"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="Select Blood Group:"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="textStart"
+            android:textColorHint="@color/white"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+
+        <EditText
+            android:id="@+id/request_email_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/input_bg"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="Email Id:"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="textStart"
+            android:textColorHint="#E8E6EF"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+
+        <EditText
+            android:id="@+id/reuest_loc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/input_bg"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="Location for Donation"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textColorHint="#F2F0F6"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+
+
+        <EditText
+            android:id="@+id/additional_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="Additional note to patential doners"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textColorHint="#EFEEF1"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I have read and agreed to these"
+            android:padding="5dp"
+            android:id="@+id/ch1"
+            android:layout_marginLeft="80dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/agree"
+            android:text="Terms and condition and Private Policy"
+            android:textColor="#59D65F"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+
+        <Button
+            android:id="@+id/send_request2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/btn_bg"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Send Request"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:layout_marginTop="41dp"
+            android:background="@drawable/ic_wave">
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

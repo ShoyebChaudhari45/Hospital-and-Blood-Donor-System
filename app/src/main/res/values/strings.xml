@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Hospital Management</string>
+
+    <string name="nevigation_open"> Necigation open</string>
+    <string name="nevigation_close"> Nevigation Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="google_maps_key" >AIzaSyDWxynKbFGlTsD5Bk50M85e9Oks2KY7lAY</string>
+
+
+</resources>

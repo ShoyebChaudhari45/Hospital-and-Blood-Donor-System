@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_homeid1"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"
+        app:itemIconTint="@color/icons_color"
+        app:itemTextColor="@color/icons_color" />
+
+    <item
+        android:id="@+id/navigation_request1"
+        android:icon="@drawable/request"
+        android:title="Request Blood"
+        app:itemIconTint="@color/icons_color"
+        app:itemTextColor="@color/icons_color" />
+
+    <item
+        android:id="@+id/navigation_contribute1"
+        android:icon="@drawable/contribute"
+        android:title="Contribute"
+        app:itemIconTint="@color/icons_color"
+        app:itemTextColor="@color/icons_color" />
+</menu>

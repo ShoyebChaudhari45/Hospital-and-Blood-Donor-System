@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/header_dashboard"
+    android:orientation="vertical"
+    tools:context=".RegistationActivity">
+
+
+    <TextView
+        android:id="@+id/tv_register_cardtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="6dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Register Here!!"
+        android:textAlignment="center"
+        android:textColor="#F7F6FB"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_register_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Name:"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:textAlignment="textStart"
+        android:textColorHint="@color/white"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/et_register_mobilenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_baseline_phone_android_24"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Mobile Number:"
+        android:inputType="number"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:textAlignment="textStart"
+        android:textColorHint="#F4F2F8"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/et_register_date_of_birth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_baseline_event_24"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Date of Birth:"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:textAlignment="textStart"
+        android:textColorHint="@color/white"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+
+    <EditText
+        android:id="@+id/et_register_blood_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_baseline_invert_colors_24"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Select Blood Group:"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:textAlignment="textStart"
+        android:textColorHint="@color/white"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+
+    <EditText
+        android:id="@+id/et_register_email_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Email Id:"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:textAlignment="textStart"
+        android:textColorHint="#E8E6EF"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+
+    <EditText
+        android:id="@+id/et_register_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Username:"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textColorHint="#F2F0F6"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/et_register_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_baseline_security_24"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Password:"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textColorHint="#EFEEF1"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+
+
+    <Button
+        android:id="@+id/btn_registernow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/btn_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Register"
+        android:textColor="@color/black"
+        android:backgroundTint="#FBF7F7"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_login_newuser1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Already Have an Account?"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="italic" />
+
+
+    <LinearLayout
+        android:layout_marginTop="65dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/ic_wave">
+
+    </LinearLayout>
+
+
+</LinearLayout>

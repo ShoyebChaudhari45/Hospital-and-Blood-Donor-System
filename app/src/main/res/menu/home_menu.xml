@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/profile_menu1"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        app:showAsAction="ifRoom"
+        android:title="My Profile"
+        />
+
+    <item
+        android:id="@+id/about_menu1"
+        android:title="About Us"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/logout_menu1"
+        android:title="Logout"
+        app:showAsAction="never"
+        />
+</menu>

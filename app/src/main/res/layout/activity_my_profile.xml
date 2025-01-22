@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MyProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#CD4B4B" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Where Care Meets Connection."
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="25dp"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_my_profile_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview_myprofile_details"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#EEED1D1D"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="477dp"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_my_profile_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_baseline_person_24"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_my_profile_mobile_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:drawableLeft="@drawable/ic_baseline_phone_android_24"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_my_profile_email_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:drawableLeft="@drawable/ic_baseline_email_24"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/tv_my_profile_user_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:drawableLeft="@drawable/ic_baseline_person_24"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_my_profile_blood_group"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:drawableLeft="@drawable/ic_baseline_security_24"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_my_profile_user_dob"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:drawableLeft="@drawable/ic_baseline_date_range_24"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <!--                    <TextView-->
+                    <!--                        android:id="@+id/tv_my_profile_user_gender"-->
+                    <!--                        android:layout_width="match_parent"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_marginTop="20dp"-->
+                    <!--                        android:drawableLeft="@drawable/ic_baseline_peopleaa_24"-->
+                    <!--                        android:text=""-->
+                    <!--                        android:textAlignment="center"-->
+                    <!--                        android:textColor="@color/black"-->
+                    <!--                        android:textSize="14sp"-->
+                    <!--                        android:textStyle="bold" />-->
+
+                    <!--                    <TextView-->
+                    <!--                        android:id="@+id/tv_my_profile_user_location"-->
+                    <!--                        android:layout_width="match_parent"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_marginTop="20dp"-->
+                    <!--                        android:drawableLeft="@drawable/ic_baseline_location_on_24"-->
+                    <!--                        android:text=""-->
+                    <!--                        android:textAlignment="center"-->
+                    <!--                        android:textColor="@color/black"-->
+                    <!--                        android:textSize="14sp"-->
+                    <!--                        android:textStyle="bold" />-->
+
+
+                    <View
+                        android:id="@+id/view"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="#D9D9D9" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/backtohome"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="125dp"
+                            android:layout_marginTop="25dp"
+                            android:gravity="center"
+                            android:text="Back"
+                            android:textColor="@color/white"
+                            android:textSize="20dp" />
+
+                        <!--                        <RadioGroup-->
+                        <!--                            android:layout_width="wrap_content"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            android:orientation="horizontal">-->
+
+                        <!--                            <TextView-->
+                        <!--                                android:layout_width="match_parent"-->
+                        <!--                                android:layout_height="wrap_content"-->
+                        <!--                                android:text="Have you ever tested positive for HIV?"-->
+                        <!--                                android:textColor="@color/black"-->
+                        <!--                                android:textSize="14sp" />-->
+
+
+                        <!--                            <RadioButton-->
+                        <!--                                android:layout_width="wrap_content"-->
+                        <!--                                android:layout_height="wrap_content"-->
+                        <!--                                android:backgroundTint="@color/white"-->
+                        <!--                                android:outlineSpotShadowColor="@color/black"-->
+                        <!--                                android:paddingLeft="5dp"-->
+                        <!--                                android:text="yes"-->
+                        <!--                                android:textColor="@color/black"-->
+                        <!--                                android:textSize="14sp"-->
+                        <!--                                android:textStyle="normal" />-->
+                        <!--                            <RadioButton-->
+                        <!--                                android:layout_width="wrap_content"-->
+                        <!--                                android:layout_height="wrap_content"-->
+                        <!--                                android:backgroundTint="@color/white"-->
+                        <!--                                android:outlineSpotShadowColor="@color/black"-->
+                        <!--                                android:paddingLeft="5dp"-->
+                        <!--                                android:text="No"-->
+                        <!--                                android:textColor="@color/black"-->
+                        <!--                                android:textSize="14sp"-->
+                        <!--                                android:textStyle="normal" />-->
+                        <!--                        </RadioGroup>-->
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <!--                        <RadioGroup-->
+                        <!--                            android:layout_width="wrap_content"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            android:orientation="horizontal">-->
+
+                        <!--                            <TextView-->
+                        <!--                                android:layout_width="match_parent"-->
+                        <!--                                android:layout_height="wrap_content"-->
+                        <!--                                android:text="Have you taken Covid-19 vaccine?"-->
+                        <!--                                android:textColor="@color/black"-->
+                        <!--                                android:textSize="14sp" />-->
+
+                        <!--                            <RadioButton-->
+                        <!--                                android:layout_width="wrap_content"-->
+                        <!--                                android:layout_height="wrap_content"-->
+                        <!--                                android:backgroundTint="@color/white"-->
+                        <!--                                android:outlineSpotShadowColor="@color/black"-->
+                        <!--                                android:paddingLeft="5dp"-->
+                        <!--                                android:text="yes"-->
+                        <!--                                android:textColor="@color/black"-->
+                        <!--                                android:textSize="14sp"-->
+                        <!--                                android:textStyle="normal" />-->
+
+                        <!--                            <RadioButton-->
+                        <!--                                android:layout_width="wrap_content"-->
+                        <!--                                android:layout_height="wrap_content"-->
+                        <!--                                android:backgroundTint="@color/white"-->
+                        <!--                                android:outlineSpotShadowColor="@color/black"-->
+                        <!--                                android:paddingLeft="5dp"-->
+                        <!--                                android:text="No"-->
+                        <!--                                android:textColor="@color/black"-->
+                        <!--                                android:textSize="14sp"-->
+                        <!--                                android:textStyle="normal" />-->
+                        <!--                        </RadioGroup>-->
+                    </LinearLayout>
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_my_profile_back"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="50dp"
+                        android:background="@color/white"
+                        android:text="Go Back"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+<!--            <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                android:id="@+id/img_my_profile_pic"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="120dp"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:layout_marginTop="50dp"-->
+<!--                android:src="@drawable/amit"-->
+<!--                app:civ_border_color="@color/lavender"-->
+<!--                app:civ_border_width="5dp" />-->
+
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/btn_my_profile_edit"-->
+<!--                android:layout_width="200dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/img_my_profile_pic"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:background="@color/white"-->
+<!--                android:text="Edit Picture"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="14sp" />-->
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

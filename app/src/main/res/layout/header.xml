@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@color/white">
+
+
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:layout_width="700dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="CareConnect"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Where Care Meets Connection...!"
+        android:textSize="15dp"
+        android:textStyle="italic"/>
+
+
+</LinearLayout>
